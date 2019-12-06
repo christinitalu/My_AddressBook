@@ -6,8 +6,8 @@ class Address(models.Model):
     phone = models.CharField(max_length=15)
     address = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
-    state = models.CharField(max_length=100,null=True)
-    country = models.CharField(max_length=100,null=True)
+    state = models.CharField(max_length=100)
+    country = models.CharField(max_length=100)
     zipcode = models.CharField(max_length=10)
 
 
